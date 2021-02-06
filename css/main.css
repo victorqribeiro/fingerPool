@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: contain;
+  background-color:  #116336;
+}
+
+canvas {
+  display: block;
+  touch-action: none;
+}
