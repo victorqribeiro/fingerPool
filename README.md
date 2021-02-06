@@ -1,14 +1,14 @@
-# Sphere Collision
+# Finger Pool
 
-A JavaScript 2D experiment with physics.
+A JavaScript 2D pool game using my [Sphere Collision](https://github.com/victorqribeiro/sphereCollision) project.
 
-[![screenshot](screenshot.png)](https://victorribeiro.com/sphereCollision)
+[![screenshot](screenshot.png)](https://victorribeiro.com/fingerPool)
 
-[Live version](https://victorribeiro.com/sphereCollision)
+[Live version](https://victorribeiro.com/fingerPool)
 
 ## About
 
-This experiment could be used to create several other game projects like pool, golf, marbles...
+A simple 2D pool game with no rules.
 
 ## How to play / interact
 
