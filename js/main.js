@@ -113,8 +113,21 @@ const spheresCollision = () => {
       }
     }
     if(spheres[i].isGone)
-      spheres.splice(i, 1)
+      if(spheres[i].c === 'hsl(360, 100%, 100%)')
+        resetWhiteBall(i)
+      else
+       spheres.splice(i, 1)
   }
+}
+
+const resetWhiteBall = (i) => {
+  if(h > w)
+    spheres[i].pos.set(w/2, h/2+h/3)
+  else
+    spheres[i].pos.set(w/2+w/3, h/2)
+  spheres[i].vel.set(0,0)
+  spheres[i].acc.set(0,0)
+  spheres[i].isGone = false
 }
 
 const resetSphereParams = () => sphere = startPos = endPos = startTime = endTime = null
